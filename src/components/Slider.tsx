@@ -4,7 +4,7 @@ export default function Slider() {
   const [minSalary, setMinSalary] = useState(0);
   const [maxSalary, setMaxSalary] = useState(1000);
 
-  const handleMinChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+   const handleMinChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = Math.min(Number(event.target.value), maxSalary - 10);
     setMinSalary(value);
   };
