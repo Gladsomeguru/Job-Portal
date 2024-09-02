@@ -5,6 +5,7 @@ import { TbChevronDown } from "react-icons/tb";
 import Dropdown from "./Dropdown";
 import Slider from "./Slider";
 
+
 export default function Filter() {
   return (
     <div className="filter">
@@ -15,7 +16,7 @@ export default function Filter() {
       <div className="filterItems">
         <CiLocationOn className="icons" />
         <Dropdown
-          icon={TbChevronDown}
+          icon={<TbChevronDown />}
           placeholder="Preferred Location"
           list={["Chennai", "Bangalore", "Hyderabad", "Delhi"]}
           listname="locationsList"
@@ -24,7 +25,7 @@ export default function Filter() {
       <div className="filterItems">
         <GoPerson className="icons" />
         <Dropdown
-          icon={TbChevronDown}
+          icon={<TbChevronDown />}
           placeholder="Job Type"
           list={[
             "Front-End Developer",

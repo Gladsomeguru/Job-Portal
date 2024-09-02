@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+interface NavProps {
+  showForm: () => void;
+}
 
-export default function Nav({ showForm }) {
+export default function Nav({ showForm }: NavProps) {
   return (
     <nav>
       <img className="logo" src="./logo.png" alt="logo" />
