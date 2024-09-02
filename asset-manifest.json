@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/job-portal/static/js/main.927b4256.js",
+    "index.html": "/job-portal/index.html",
+    "main.927b4256.js.map": "/job-portal/static/js/main.927b4256.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.927b4256.js"
+  ]
+}
